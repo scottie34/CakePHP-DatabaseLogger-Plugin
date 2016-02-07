@@ -2,7 +2,7 @@
 class LogsController extends DatabaseLoggerAppController {
 
 	var $name = 'Logs';
-	var $helpers = array('Time','Icing.Csv');
+	var $helpers = array('Time','DatabaseLogger.Csv');
 	var $paginate = array(
 		'order' => 'Log.id DESC',
 		'fields' => array(
